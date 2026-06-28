@@ -1,24 +1,24 @@
 class Chennai < Formula
   desc "Hybrid AI agent and TUI for exploring AppThreat atom files"
   homepage "https://github.com/AppThreat/chennai"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/AppThreat/chennai/releases/download/v#{version}/chennai-darwin-arm64.tar.gz"
-      sha256 "53b08051da22047f03e427c22c15d05edc7dbc7a6d989e8a9a520ef428d5c8fa"
+      sha256 "9eeaa9db7e07cdc632e460b9ced4ee5279e926a085cc038d0e8634494dc67b1a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/AppThreat/chennai/releases/download/v#{version}/chennai-linux-arm64.tar.gz"
-      sha256 "edc7e309878a8cc9333687603fc8dead78e927a34dc1e1be48ac7537c58dda27"
+      sha256 "609a19ee4aaccd931519a045a3198d7cd4451a3326e7cd9a577755063f092286"
     end
     on_intel do
       url "https://github.com/AppThreat/chennai/releases/download/v#{version}/chennai-linux-amd64.tar.gz"
-      sha256 "35e0c96480f4dc962a1ad366edd87396e18f95f4fb448de48c3e641a19c05d85"
+      sha256 "86fcf9e381eb47e9e8b90a053bd8dd548314906f9508af015acee08039cdb8e0"
     end
   end
 
