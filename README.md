@@ -6,6 +6,7 @@
 
 ```bash
 brew tap appthreat/tap
+brew trust --tap appthreat/tap   # only needed if HOMEBREW_REQUIRE_TAP_TRUST is set
 brew install chennai
 ```
 
