@@ -1,0 +1,33 @@
+docs/updating-formulas.md
+  s_cd7a37553d7bf5::t_ea05bc95d46921 1-67
+Formula/parsa.rb
+  s_cd7a37553d7bf5::t_990dfe087b69f8 1-30,39,41-46
+  s_cd7a37553d7bf5::t_801c7c25c9a962 31-38,40
+Formula/atom.rb
+  s_cd7a37553d7bf5::t_5b25ed87a40748 27-32,34
+  s_cd7a37553d7bf5::t_e199385342d5ba 1,3-26,33,35-40
+  s_cd7a37553d7bf5::t_75f3169d90d027 2
+Formula/ruby-ast-gen.rb
+  s_cd7a37553d7bf5::t_7390908dc8696b 1-46
+README.md
+  s_cd7a37553d7bf5::t_48845a240c1dbe 1,3-5,12,15,17,19-63,67-78,81-82
+Formula/edga.rb
+  s_cd7a37553d7bf5::t_a1590ecd31fe62 1-26,33,35-40
+  s_cd7a37553d7bf5::t_4f304a8fa89755 27-32,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f7861be1640676a35548b5ecd6925e5c3cc59eb4",
+  "prompts": {},
+  "sessions": {
+    "s_cd7a37553d7bf5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "sess_b00a8b8c-312c-48ea-9c84-25b5cb7fc1cb",
+        "model": "GLM-5.3"
+      },
+      "human_author": "Team AppThreat <cloud@appthreat.com>"
+    }
+  }
+}
